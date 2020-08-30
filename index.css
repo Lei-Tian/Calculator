@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(https://wallpapersite.com/images/pages/pic_w/8953.jpg);
+    background-size: cover;
+  }
+  
+  #root {
+    text-align: center;
+  }
+  
+  #banner {
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Ruge Boogie', cursive;
+    font-size: 100px;
+    font-weight: 800;
+  }
+  
+  #calculator-body {
+    height: 400px;
+    width: 380px;
+    margin: 100px auto;
+    padding: 10px 0px;
+    background: rgba(80, 200, 120,0.7);
+    border-radius: 50px;
+  }
+  
+  .shell {
+    position: relative;
+    text-align: center;
+    height: 305px;
+    width: 380px;
+    margin: 0 auto;
+  }
+  
+  .screen {
+    background: white;
+    position: relative;
+    height: 100px;
+    width: 300px;
+    margin: 10px 40px;
+  }
+  
+  .screen-first-row {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    margin: 0px;
+    font-size: 18px;
+  }
+  
+  .screen-second-row {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    margin: 0px;
+    font-size: 32px;
+  }
+  
+  .btn {
+    width: 60px;
+    height: 40px;
+    margin: 0 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .keys-row {
+    margin-bottom: 10px;
+  }
